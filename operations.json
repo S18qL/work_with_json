@@ -1,0 +1,67 @@
+[
+  {
+    "state": "EXECUTED",
+    "date": "2022-01-01T10:00:00.000000",
+    "description": "Покупка",
+    "from": "Оплата товаров и услуг по карте 1234567812345678",
+    "to": "Перевод на счет 1234567812345678",
+    "operationAmount": {
+      "amount": 1000,
+      "currency": {
+        "name": "RUB"
+      }
+    }
+  },
+  {
+    "state": "EXECUTED",
+    "date": "2022-01-02T10:00:00.000000",
+    "description": "Перевод",
+    "from": null,
+    "to": "Перевод на счет 1234567812345678",
+    "operationAmount": {
+      "amount": 2000,
+      "currency": {
+        "name": "RUB"
+      }
+    }
+  },
+  {
+    "state": "CANCELED",
+    "date": "2022-01-03T10:00:00.000000",
+    "description": "Покупка",
+    "from": "Оплата товаров и услуг по карте 1234567812345678",
+    "to": "Перевод на счет 1234567812345678",
+    "operationAmount": {
+      "amount": 3000,
+      "currency": {
+        "name": "RUB"
+      }
+    }
+  },
+  {
+    "state": "EXECUTED",
+    "date": "2022-01-04T10:00:00.000000",
+    "description": "Перевод",
+    "from": null,
+    "to": "Перевод на счет 1234567812345678",
+    "operationAmount": {
+      "amount": 4000,
+      "currency": {
+        "name": "RUB"
+      }
+    }
+  },
+  {
+    "state": "EXECUTED",
+    "date": "2022-01-05T10:00:00.000000",
+    "description": "Покупка",
+    "from": null,
+    "to": "Счет 1234567812345678",
+    "operationAmount": {
+      "amount": 5000,
+      "currency": {
+        "name": "RUB"
+      }
+    }
+  }
+]
